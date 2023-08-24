@@ -4,11 +4,11 @@ console.log(h1);
 const h2 = document.querySelector("h2");
 console.log(h2);
 
-const h3 = document.querySelector("h3");
-console.log(h3);
-
 const img = document.querySelector("img");
 console.log(img);
 
-const p = document.querySelector("p");
-console.log("p");
+const article = document.querySelector("article");
+console.log("article");
+
+const article2 = document.querySelector("article:nth-child(2)");
+console.log("article2");
